@@ -1,0 +1,128 @@
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.header{
+    background-image: url(../images/Hero-bg.png);
+    width: 100%;
+    height: 698px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav h3{
+    margin: 50px 150px;
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: 800;
+}
+
+
+.btn-primary{
+    margin: 50px 150px;
+    text-decoration: none;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 36px;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-second{
+    margin: 50px 150px;
+    text-decoration: none;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 36px;
+    border-radius: 10px;
+    color: white;
+}
+
+.header-sologan{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* page-2 banner-container */
+
+.banner-title{
+    font-size: 42px;
+    color: #252432;
+    font-weight: bold;
+}
+
+.banner-sub-title{
+    font-size: 24px;
+    font-weight: 300;
+    color: #252432;
+    margin-top: 23px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    margin: 116px 159px;
+    gap: 220px;
+
+}
+
+.banner-btn{
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 36px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin-top: 23px;
+}
+
+.wc-mini{
+    border-radius: 48px;
+}
+
+/* over-view-container */
+
+.over-view-container{
+    margin: 0px 159px 137px 141px;
+    background-color: #4d47ff21;
+    padding: 50px 142px;
+    border-radius: 24px;
+    justify-items: center;
+    
+}
+
+.view-title{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.users-info{
+    display: flex;
+    gap: 158px;
+    
+}
+
+.users-info h1{
+    font-size: 80px;
+    margin-bottom: 0px;
+    /* margin-top: 40px; */
+}
+
+.users-info p{
+    font-size: 20px;
+    margin-top: 0px;
+    
+}
+
+/* Ready for focus better */
+
