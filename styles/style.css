@@ -41,6 +41,11 @@ nav h3 {
     color: white;
 }
 
+.all-btn:hover{
+    background-color: white;
+    color: rgb(0, 0, 12);
+}
+
 .btn-second {
     margin: 50px 150px;
     text-decoration: none;
@@ -215,7 +220,37 @@ nav h3 {
 }
 
 /* footer section */
-.jubayer{
+
+.random{
+    margin: 10px 450px;
+    text-align: center;
+}
+
+.random h1{
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 100px ;
+    color: #4E47FF;
+    font-weight: 800;
+}
+
+.random p{
+    
+}
+
+.footer-container{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+}
+.footer-navigation{
     display: flex;
     justify-content: center;
 }
