@@ -106,6 +106,14 @@ nav h3 {
 
 .feedback-container{
     justify-content: center;
+    
+}
+
+.feed-container-head{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: bold;
 }
 
 .reviwer{
@@ -114,11 +122,16 @@ nav h3 {
     font-size: 16px;
     font-weight: 800;
     color: #757575;
+    margin-bottom: 0px;
 }
 
 .jubayer{
     display: flex;
     gap: 20px;
+}
+
+.date{
+    margin-top: 0px;
 }
 
 .avatar{
