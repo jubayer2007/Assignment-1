@@ -1,3 +1,8 @@
+body{
+    background-color: #4d47ff0c;
+}
+
+
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -126,3 +131,14 @@ nav h3{
 
 /* Ready for focus better */
 
+.focus-better-container{
+    background-color: gray;
+    margin: 137px 150px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+.wc-big{
+    border-radius: 48px;
+}
