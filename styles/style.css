@@ -1,27 +1,28 @@
-body{
+body {
     background-color: #4d47ff0c;
 }
 
 
 .raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-.header{
+.header {
     background-image: url(../images/Hero-bg.png);
     width: 100%;
     height: 698px;
-    
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    
+
 }
 
-nav h3{
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav h3 {
     margin: 50px 150px;
     color: #4E47FF;
     font-size: 34px;
@@ -29,7 +30,7 @@ nav h3{
 }
 
 
-.btn-primary{
+.btn-primary {
     margin: 50px 150px;
     text-decoration: none;
     background-color: #4E47FF;
@@ -40,7 +41,7 @@ nav h3{
     color: white;
 }
 
-.btn-second{
+.btn-second {
     margin: 50px 150px;
     text-decoration: none;
     background-color: #4E47FF;
@@ -51,7 +52,7 @@ nav h3{
     color: white;
 }
 
-.header-sologan{
+.header-sologan {
     font-size: 65px;
     font-weight: bold;
     text-align: center;
@@ -60,20 +61,20 @@ nav h3{
 
 /* page-2 banner-container */
 
-.banner-title{
+.banner-title {
     font-size: 42px;
     color: #252432;
     font-weight: bold;
 }
 
-.banner-sub-title{
+.banner-sub-title {
     font-size: 24px;
     font-weight: 300;
     color: #252432;
     margin-top: 23px;
 }
 
-.banner-container{
+.banner-container {
     display: flex;
     justify-content: center;
     margin: 116px 159px;
@@ -81,7 +82,7 @@ nav h3{
 
 }
 
-.banner-btn{
+.banner-btn {
     background-color: #4E47FF;
     font-size: 16px;
     font-weight: bold;
@@ -91,54 +92,138 @@ nav h3{
     margin-top: 23px;
 }
 
-.wc-mini{
+.wc-mini {
     border-radius: 48px;
 }
 
 /* over-view-container */
 
-.over-view-container{
+.over-view-container {
     margin: 0px 159px 137px 141px;
     background-color: #4d47ff21;
     padding: 50px 142px;
     border-radius: 24px;
     justify-items: center;
-    
+
 }
 
-.view-title{
+.view-title {
     font-size: 38px;
     font-weight: bold;
 }
 
-.users-info{
+.users-info {
     display: flex;
     gap: 158px;
-    
+
 }
 
-.users-info h1{
+.users-info h1 {
     font-size: 80px;
     margin-bottom: 0px;
     /* margin-top: 40px; */
 }
 
-.users-info p{
+.users-info p {
     font-size: 20px;
     margin-top: 0px;
-    
+
 }
 
 /* Ready for focus better */
 
-.focus-better-container{
-    background-color: gray;
-    margin: 137px 150px;
-    align-items: center;
-    border-radius: 15px;
+.focus-better{
+   justify-items: center;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container p {
+    color: #666;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.container img{ 
+    padding: 30px;
+    border-radius: 50px;
 }
 
 
-.wc-big{
-    border-radius: 48px;
+.container button{
+    background-color: #4F46E5;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+
+    margin: 30px;
+    display: inline-block;
+}
+
+/* form */
+
+.form-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 150px;
+    gap: 100px;
+}
+
+.form-container h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.main-form label{
+    display: block;
+    font-size: 18px;
+    margin-top: 15px;
+    
+}
+
+.main-form input{
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.form-btn{
+    background-color: #4F46E5;
+    color: white;
+    margin-top: 15px;
+    padding: 20px 90px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* footer section */
+.jubayer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container ul li a{
+    text-decoration: none;
+}
+
+.footer-container ul li{
+    list-style: none;
 }
